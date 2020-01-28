@@ -1,0 +1,22 @@
+[
+  {
+    "id": "alejandro-oviedo",
+    "image": "alejandro-oviedo",
+    "name": "Alejandro Oviedo",
+    "job": "Software Engineer @ nodeconf",
+    "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi lacinia nulla augue, et porttitor lectus accumsan nec. Mauris vel varius massa, id iaculis felis. Donec vitae tincidunt massa. Nullam nisi lectus,",
+    "title": "Talk title a bit long to see",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi lacinia nulla augue, et porttitor lectus accumsan nec. Mauris vel varius massa, id iaculis felis. Donec vitae tincidunt massa. Nullam nisi lectus, ornare a gravida quis, vulputate et sapien. Donec odio sapien, eleifend in cursus blandit, placerat in libero. Ut a tempor turpis, hendrerit volutpat leo. Quisque eget est a lacus malesuada ornare quis et justo. Morbi suscipit nunc et imperdiet efficitur. Ut nulla nisl, ornare eu est in, ultrices gravida orci. In laoreet dui vitae diam sodales",
+    "ogImage": "anjana-meta"
+  },
+  {
+    "id": "cintia-gonzalez",
+    "image": "pecas",
+    "name": "Cintia Gonzalez",
+    "job": "UI Developer @ nodeconf",
+    "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi lacinia nulla augue, et porttitor lectus accumsan nec. Mauris vel varius massa, id iaculis felis. Donec vitae tincidunt massa. Nullam nisi lectus,",
+    "title": "",
+    "description": "",
+    "ogImage": "anjana-meta"
+  }
+]

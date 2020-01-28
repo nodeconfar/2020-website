@@ -1,0 +1,115 @@
+$primaryColor: #0b0340;
+$lightenPrimary: #0c005f;
+$secondaryColor: #ffffff;
+$tertiaryColor: #54a2ff;
+$accentColor: #adcb2b;
+
+
+/*Gral CSS*/
+:focus {
+  outline: 0;
+}
+
+html,
+body {
+  font-family: 'Poppins', sans-serif;
+  overflow-x: hidden;
+  font-weight: 300;
+  font-size: 100%;
+  font-size: 15px;
+  margin: 0;
+}
+
+a {
+  color: $accentColor;
+  &:hover {
+    color: $tertiaryColor;
+  }
+}
+
+@media screen and (max-width: 1430px) {
+  html,
+  body {
+    font-size: 13px;
+  }
+}
+
+.container {
+  max-width: 86rem;
+}
+.bg-blue-node {
+  background-color: $primaryColor
+}
+.bg-green-node {
+  background-color: $accentColor;
+}
+.bg-dark-node {
+  background-color: $lightenPrimary;
+}
+
+.green-node {
+  color: $accentColor;
+}
+
+.blue-node {
+  color: $primaryColor;
+}
+
+%absoluteBlock {
+  display: block;
+  position: absolute;
+  text-align: center;
+}
+
+.go-map {
+  color: $accentColor;
+  .tooltip {
+    @extend %absoluteBlock;
+    text-transform: uppercase;
+    background: $secondaryColor;
+    top: 50px;
+    color: $primaryColor;
+    right: 50%;
+    margin-right: -35px;
+    opacity: 0;
+    padding: 5px 10px;
+    font-size: 12px;
+    transform: translateY(10px);
+    transition: all .3s ease-out;
+
+    &:after {
+      content: " ";
+      position: absolute; 
+      border-left: 7px solid transparent;
+      border-right: 7px solid transparent;
+      border-bottom: 7px solid $secondaryColor;
+      bottom: 23px;
+      height: 0;
+      margin-left: -35px;
+      width: 0;
+    }
+
+    &:before {
+      content: " ";
+      @extend %absoluteBlock;
+      top: -20px;
+      height: 20px;
+    }
+  }
+
+  &:hover {
+    color: $secondaryColor;
+    .tooltip {
+    opacity: 1;
+    transform: translateY(0)
+  }
+
+}
+}
+
+
+@media screen and (max-width: 60em) {
+  .dn-ms {
+    display: none;
+  }
+}
