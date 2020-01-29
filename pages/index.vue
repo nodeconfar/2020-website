@@ -1,16 +1,16 @@
   <template>
     <div>
-      <div class="flex vh-100 bg-blue-node">
+      <div class="flex vh-hero bg-blue-node">
         <div class="container center relative ph3 self-center z-5">
           <div class="w-100">
-            <div class="mt5-l">
+            <div class="mt5-l mb0-l mb5">
               <h1 class="logo-big mv0"><img src="nodeconf-logo-big.svg" alt="nodeconf"></h1>
               <p class="white year mv0">2020</p>
             </div>
             <div class="tr-l tc">
-              <p class="f2 ttu bg-green-node blue-node ttu dib ph3 pv2 mv0">OCT. 9th & 10th</p>
-              <p class="mv0"><a href="https://goo.gl/maps/EnygTg2SvyD2" target="_black" rel="noopener"
-                  class="f2 fw9 ttu link go-map relative">c.c konex
+              <p class="f2 ttu bg-green-node blue-node ttu dib ph3 pv2 mv0">OCTOBER 9th & 10th</p>
+              <p class="mt2 mb0"><a href="https://goo.gl/maps/EnygTg2SvyD2" target="_black" rel="noopener"
+                  class="f2 fw9 ttu link go-map relative">c.c. konex
                   <span class="tooltip fw7 ttu">see map</span>
                 </a>
               </p>
@@ -24,6 +24,13 @@
   </template>
 
 <style lang="scss" scoped>
+.vh-hero {
+  height: 100vh;
+  @media screen and (max-width: 60em) {
+    height: calc(100vh - 100px);
+  }
+  
+}
 .logo-big {
   width: 70rem;
 
@@ -46,6 +53,9 @@
   height: 500px;
   position: absolute;
   z-index: 3;
+  @media screen and (max-width: 60em) {
+    width: 80%;
+  }
 }
 
 .bg-hero {
