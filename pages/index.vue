@@ -4,17 +4,17 @@
         <div class="container center relative ph3 self-center z-5">
           <div class="w-100">
             <div class="mt5-l">
-              <h1 class="logo-big mv0"><img src="nodeconf-logo-big.svg" alt="nodeconf"></h1>
-              <p class="dn-ms year mv0">2020</p>
+              <h1 class="dn-ms logo-big mv0"><img src="nodeconf-logo-big.svg" alt="nodeconf"></h1>
+              <h1 class="dn-l logo-big mv0"><img src="nodeconf-logo-big-m.svg" alt="nodeconf"></h1>
+              <p class="year mt0">2020</p>
             </div>
-            <div class="tr-l tc">
-              <p class="f2 ttu bg-green-node blue-node ttu dib ph3 pv2 mv0">OCTOBER 9th & 10th</p>
+            <div class="tr">
+              <p class="f2-l f3 ttu bg-green-node blue-node ttu dib ph3 pv2 mv0">OCTOBER 9th & 10th</p>
               <p class="mt2 mb0"><a href="https://goo.gl/maps/EnygTg2SvyD2" target="_black" rel="noopener"
-                  class="f2 fw9 ttu link go-map relative">c.c. konex
+                  class="f2-l f3 fw9 ttu link go-map relative">c.c. konex
                   <span class="tooltip fw7 ttu">see map</span>
                 </a>
               </p>
-              <p class="dn-l year mv0">2020</p>
             </div>
           </div>
                   </div>
@@ -38,16 +38,17 @@
 
   @media screen and (max-width: 60em) {
     width: 100%;
-    margin-bottom: 2rem;
   }
 }
 
 .year {
   font-size: 7rem;
   color: white;
+  margin-bottom: 1rem;
   @media screen and (max-width: 60em) {
-    font-size: 6rem;
-    color: rgba($color: #adcb2b, $alpha: .5);
+    font-size: 4rem;
+    color: #adcb2b;
+    margin-bottom: 3rem;
   }
 }
 
@@ -58,7 +59,8 @@
   position: absolute;
   z-index: 3;
   @media screen and (max-width: 60em) {
-    display: none;
+   height: 65%;
+   width: 60%;
   }
 }
 
@@ -68,7 +70,7 @@
   width: 100%;
   height: 60%;
     @media screen and (max-width: 60em) {
-      height: 50%;
+      height: 55%;
     }
 }
 </style>
