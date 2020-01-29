@@ -31,8 +31,8 @@
                    t-shirts.</p>
 
              <p> If you are being target of harassment or discrimination —or you witness these behaviors— please
-                   contact us at <a href="mailto:coc@nodeconf.com.ar"
-                         class="link">coc@nodeconf.com.ar</a>, by phone at <a href="tel:+5491167990445">+5491167990445</a>
+                   contact us at <a href="mailto:coc@nodeconfar.com"
+                         class="link">coc@nodeconfar.com</a>, by phone at <a href="tel:+5491167990445">+5491167990445</a>
                    (Alejandro Oviedo) or send an anonymous report <a
                          href="https://docs.google.com/forms/d/e/1FAIpQLScM_UMQ2DJ0b8RB4xoIrWlm7k2s5IR-Fd0FXlMDjXq0anKUlQ/viewform"
                           target="_blank" rel="noopener"  class="link"> here</a>. All concerns shared with the organizers will be
