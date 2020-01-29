@@ -13,7 +13,7 @@
         </div>
       </div>
 
-      <div class="dn-l ph3">
+      <div class="dn ph3">
         <div class="flex justify-between items-center pv3">
           <a href="/" target="_blank" rel="noopener"><img src="/nodeconf-icon.svg" alt="nodeconf" class="logo-m"></a>
           <div class="dropdown">

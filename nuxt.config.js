@@ -5,7 +5,7 @@ module.exports = {
 
   generate: {
     routes: function () {
-      return json.map(w => `/speaker/${w.id}`)
+      return json.map(w => `/speakers/${w.id}`)
     }
   },
 

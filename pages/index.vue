@@ -25,12 +25,19 @@
 
 <style lang="scss" scoped>
 .logo-big {
-  max-width: 100%;
   width: 70rem;
+
+  @media screen and (max-width: 60em) {
+    width: 100%;
+  }
 }
 
 .year {
   font-size: 7rem;
+
+  @media screen and (max-width: 60em) {
+    text-align: center;
+  }
 }
 
 .square {
