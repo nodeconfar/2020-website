@@ -44,7 +44,8 @@ module.exports = {
   ** Plugins to load before mounting the App
   */
   plugins: [
-    { src: '~/plugins/scroll-to.js', ssr: false }
+    { src: '~/plugins/scroll-to.js', ssr: false },
+    { src: '~/plugins/ga.js', mode: 'client' }
   ],
 
   /*
