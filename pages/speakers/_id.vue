@@ -36,22 +36,25 @@ export default {
       return this.posts.find(post => post.id === this.id)
     }
   },
-  head() {
+
+head () {
+    let post = this.post
     return {
-      title: this.name,
-      meta: [{
-          hid: 'description',
+      title: post.name,
+      meta: [
+        {
+          hid: `description`,
           name: 'description',
-          content: this.bio
+          content: post.bio
         },
         {
-          hid: 'og:image',
+         hid: 'og:image',
           property: 'og:image',
-          content: this.BASE_URL + `/profiles/${this.ogImage}.png`,
+          content: `https://2020.nodeconfar.com/profiles/${post.ogImage}.png`,
         }
       ]
     }
-  }
+  },
 }
 
 </script>

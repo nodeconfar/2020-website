@@ -18,7 +18,7 @@ module.exports = {
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: 'Join us for NodeConf Argentina! Our fourth edition will be held at Ciudad Cultural Konex - Buenos Aires, in October 9th & 10th, 2020' },
-      { hid: 'og:image', property: 'og:image', content: '/og-image.png'}
+      { hid: 'og:image', property: 'og:image', content: 'https://2020.nodeconfar.com/og-image.png'}
       
     ],
     link: [
