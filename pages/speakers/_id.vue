@@ -42,16 +42,12 @@ head () {
     return {
       title: post.name,
       meta: [
-        {
-          hid: `description`,
-          name: 'description',
-          content: post.bio
-        },
-        {
-         hid: 'og:image',
-          property: 'og:image',
-          content: `https://2020.nodeconfar.com/profiles/${post.ogImage}.png`,
-        }
+        { hid: `description`, name: 'description', content: post.bio },
+        { property: 'og:image', content: `https://2020.nodeconfar.com/profiles/${post.ogImage}.png`},
+        { name: 'twitter:card', content: 'summary_large_image' },
+        { name: 'twitter:title', content: post.name },
+        { name: 'twitter:description', content: post.bio},
+        { name: 'twitter:image', content: `https://2020.nodeconfar.com/profiles/${post.ogImage}.png` }, 
       ]
     }
   },

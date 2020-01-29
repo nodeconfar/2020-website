@@ -17,7 +17,7 @@
         <div class="flex justify-between items-center pv3">
           <a href="/" target="_blank" rel="noopener"><img src="/nodeconf-icon.svg" alt="nodeconf" class="logo-m"></a>
           <div class="dropdown">
-            <button class="dropbtn" aria-label="Toggle Menu"><img src="menu.svg"></button>
+            <button class="dropbtn" aria-label="Toggle Menu"><img src="/menu.svg"></button>
             <nav class="dropdown-menu ph3" id="drop-menu">
               <a v-scroll-to="'/#about'" class="blue-node link db ttu pv3">about</a>
               <a v-scroll-to="'/speakers'" class="blue-node link db ttu pv3">speakers</a>

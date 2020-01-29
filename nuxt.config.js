@@ -13,16 +13,26 @@ module.exports = {
   ** Headers of the page
   */
   head: {
-    title: 'Nodeconf 2020',
+    title: 'Nodeconf Argentina 2020',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'Join us for NodeConf Argentina! Our fourth edition will be held at Ciudad Cultural Konex - Buenos Aires, in October 9th & 10th, 2020' },
-      { hid: 'og:image', property: 'og:image', content: 'https://2020.nodeconfar.com/og-image.png'}
-      
+      { name: 'description', hid: 'description', content: 'Join us for NodeConf Argentina! Our fourth edition will be held at Ciudad Cultural Konex - Buenos Aires, in October 9th & 10th, 2020'},
+      // Open Graph
+      { name: 'og:title', content: 'NodeConf Argentina 2020' },
+      { name: 'og:description', content: 'Join us for NodeConf Argentina! Our fourth edition will be held at Ciudad Cultural Konex - Buenos Aires, in October 9th & 10th, 2020'},
+      { name: 'og:type', content: 'website' },
+      { name: 'og:url', content: 'https://2020.nodeconfar.com/' },
+      { name: 'og:image', content: 'https://2020.nodeconfar.com/og-image.png' },
+      // Twitter Card
+      { name: 'twitter:card', content: 'summary_large_image' },
+      { name: 'twitter:site', content: '@nodeconfar' },
+      { name: 'twitter:title', content: 'NodeConf Argentina 2020' },
+      { name: 'twitter:description', content: 'Join us for NodeConf Argentina! Our fourth edition will be held at Ciudad Cultural Konex - Buenos Aires, in October 9th & 10th, 2020'},
+      { name: 'twitter:image', content: 'https://2020.nodeconfar.com/og-image.png' },     
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      { rel: 'icon', type: 'image/x-icon', href: 'https://2020.nodeconfar.com/favicon.ico' },
       { rel: 'stylesheet', href: 'https://cdnjs.cloudflare.com/ajax/libs/tachyons/4.11.1/tachyons.min.css'},
       { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Poppins:300,700,900'},
     ]
