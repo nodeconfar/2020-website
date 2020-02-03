@@ -22,7 +22,7 @@
                    following code of
                    conduct.</h3>
 
-             <p> We expect participants to follow these rules at conference, workshop venues and conference-related
+             <p> We expect participants to follow these rules during the conference, workshop venues and conference-related
                    social events.</p>
 
              <p> Conference staff will offer help to participants to contact hotel/venue security or local law
