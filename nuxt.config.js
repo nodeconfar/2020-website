@@ -32,7 +32,7 @@ module.exports = {
       { name: 'twitter:site', content: '@nodeconfar' },
       { name: 'twitter:title', content: 'NodeConf Argentina 2020' },
       { name: 'twitter:description', content: 'Join us for NodeConf Argentina! Our fourth edition will be held at Ciudad Cultural Konex - Buenos Aires, in October 9th & 10th, 2020'},
-      { name: 'twitter:image', content: 'https://2020.nodeconfar.com/og-image.png' },     
+      { name: 'twitter:image', content: 'https://2020.nodeconfar.com/og-image.png' },
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: 'https://2020.nodeconfar.com/favicon.ico' },
