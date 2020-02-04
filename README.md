@@ -1,5 +1,7 @@
 # Nodeconf
 
+![Deploy to GitHub Pages](https://github.com/nodeconfar/2020-website/workflows/Deploy%20to%20GitHub%20Pages/badge.svg)
+
 > Nodeconf AR 2020
 > http://nodeconfar.com
 
