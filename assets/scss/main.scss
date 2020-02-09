@@ -1,8 +1,7 @@
-$primaryColor: #0b0340;
-$lightenPrimary: #0c005f;
+$primaryColor: #051031;
+$lightenPrimary: #020718;
 $secondaryColor: #ffffff;
-$tertiaryColor: #54a2ff;
-$accentColor: #adcb2b;
+$accentColor: #bfd94d;
 
 
 /*Gral CSS*/
@@ -23,37 +22,38 @@ body {
 a {
   color: $accentColor;
   &:hover {
-    color: $tertiaryColor;
-  }
-}
-
-@media screen and (max-width: 95rem) {
-  html,
-  body {
-    font-size: 13px;
-    height: 100%;
+    color: $primaryColor;
   }
 }
 
 .container {
-  max-width: 86rem;
+  max-width: 80rem;
 }
-.bg-blue-node {
+.bg-blue-node,
+.hover-bg-blue-node:hover {
   background-color: $primaryColor
 }
-.bg-green-node {
+.bg-green-node,
+.hover-bg-green-node:hover {
   background-color: $accentColor;
 }
-.bg-dark-node {
+.bg-dark-node,
+.hover-bg-dark-node:hover {
   background-color: $lightenPrimary;
 }
 
-.green-node {
+.green-node,
+.hover-green-node:hover {
   color: $accentColor;
 }
 
-.blue-node {
+.blue-node,
+.hover-blue-node:hover {
   color: $primaryColor;
+}
+.dark-node,
+.hover-dark-node:hover {
+  color: $lightenPrimary;
 }
 
 %absoluteBlock {
@@ -108,6 +108,47 @@ a {
 }
 }
 
+.animated {
+  -webkit-animation-duration: .5s;
+  animation-duration: .5s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+}
+@-webkit-keyframes bounce {
+  0%, 100% {
+    -webkit-transform: translateY(0);
+  }
+  50% {
+    -webkit-transform: translateY(-5px);
+  }
+}
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-5px);
+  }
+}
+.bounce {
+  -webkit-animation-name: bounce;
+  animation-name: bounce;
+}
+
+.btn {
+  padding: .8rem 1.5rem;
+  background-color: transparent;
+  border-style: solid;
+  border-width: 2px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: bold;
+  display: inline-block;
+}
 
 @media screen and (max-width: 60em) {
   .dn-ms {
