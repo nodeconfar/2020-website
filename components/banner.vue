@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="vh-hero bg-blue-node">
+    <div class="vh-hero bg-blue-node relative">
       <div class="container center ph3-l ph5 relative h-100">
         <div class="w-100 z-5 relative pt7-l pt6">
           <div class="flex flex-wrap items-center pt3">
@@ -81,8 +81,7 @@ letter-spacing: 0.1em;
   z-index: 3;
 
   @media screen and (max-width: 60em) {
-    height: 65%;
-    width: 60%;
+    display: none;
   }
 }
 

@@ -2,9 +2,9 @@
      <div class="bg-green-node blue-node">
          <div class="container center ph3 flex flex-wrap items-center justify-betweeen-l justify-center">
              <div class="w-50-l w-100 nt5-l nt3 pl5-l ph4">
-                 <p class="editions white bg-blue-node f6 fw7 ttu pv2 ph3 dib"><span class="pr4">previous editions</span>
-                 <a href="https://2018.nodeconfar.com" class="link pr3 green-node hover-white" target="_blank" rel="noopener">2018</a>
-            <a href="https://2017.nodeconfar.com" class="link pr3 green-node hover-white" target="_blank" rel="noopener">2017</a>
+                 <p class="editions white bg-blue-node f6 fw7 ttu pv2 ph3 dib"><span class="pr4-l pr3">previous editions</span>
+                 <a href="https://2018.nodeconfar.com" class="link pr3-l pr2 green-node hover-white" target="_blank" rel="noopener">2018</a>
+            <a href="https://2017.nodeconfar.com" class="link pr3-l pr2 green-node hover-white" target="_blank" rel="noopener">2017</a>
             <a href="https://2016.nodeconfar.com" class="link green-node hover-white" target="_blank" rel="noopener">2016</a>
             
           </p>
