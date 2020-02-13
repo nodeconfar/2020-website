@@ -35,7 +35,7 @@
 <style lang="scss" scoped>
 .mc-form,
 .editions {
-    max-width: 315px;
+    max-width: 21rem;
     input {
         border-radius: 0;
     }
@@ -82,6 +82,10 @@
     border: none;
     color: #fff;
     width: calc(100% - 3.5rem);
+    min-width: 17rem;
+    @media screen and (max-width: 60em) {
+         min-width: 10rem;
+    }
 
     &::placeholder {
         color: #bfd94d;
