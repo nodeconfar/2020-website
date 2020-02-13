@@ -17,7 +17,7 @@
             </p>
           </div>
         </div>
-       <p class="z-5 animated bounce arrow mb0 mt5"> <a v-scroll-to="'#about'"><img src="arrow.svg"></a></p>
+       <p class="z-5 animated bounce arrow mb0 mt0-l mt5"> <a v-scroll-to="'#about'"><img src="arrow.svg"></a></p>
       </div>
       <span class="square bg-blue-node bottom-0 right-0"></span>
       <div class="bg-hero top-0 absolute z-2"></div>
@@ -100,13 +100,14 @@ letter-spacing: 0.1em;
   position: absolute;
   width: 30px;
   height: 30px;
-  bottom: 4rem;
-  right: 0;
+  bottom: 10rem;
+  right: 3rem;
 
   @media screen and (max-width: 60em) {
     position: relative;
-    text-align: center;
     bottom: 0;
+    right: 0;
+    left: 0;
   }
 }
 </style>
