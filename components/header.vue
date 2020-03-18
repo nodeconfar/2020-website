@@ -3,21 +3,21 @@
    <div class="container center ph3">
       <div id="desktop-menu" class="dn-ms">
         <div class="flex justify-between items-center">
-           <a href="/" class="link"><span class="logo"></span></a>
+           <a href="/" class="link" aria-label="nodeconf logo"><span class="logo"></span></a>
           <nav class="items-center flex tracked">
-            <a v-scroll-to="'#about'" class="hover-white green-node link f6 pa3 dib ttu">about</a>
-            <!--<a href="/speakers" class="hover-white green-node link f6 pa3 dib ttu">speakers</a>
-            <a v-scroll-to="'#schedule'" class="hover-white green-node link f6 pa3 dib ttu">schedule</a>-->
-            <a v-scroll-to="'#sponsors'" class="hover-white green-node link f6 pa3 dib ttu">sponsors</a>
+            <a v-scroll-to="'#about'" class="hover-white pink-node link f6 pa3 dib ttu">about</a>
+            <!--<a href="/speakers" class="hover-white pink-node link f6 pa3 dib ttu">speakers</a>
+            <a v-scroll-to="'#schedule'" class="hover-white pink-node link f6 pa3 dib ttu">schedule</a>-->
+            <a v-scroll-to="'#sponsors'" class="hover-white pink-node link f6 pa3 dib ttu">sponsors</a>
           </nav>
         </div>
       </div>
 
       <div class="dn-l ph3">
         <div class="flex justify-between items-center pv3">
-          <a href="/" target="_blank" rel="noopener"><img src="/nodeconf-icon.svg" alt="nodeconf" class="logo-m"></a>
+          <a href="/" rel="noopener" aria-label="nodeconf logo"><img src="/nodeconf-icon.svg" alt="nodeconf" class="logo-m"></a>
           <div class="dropdown">
-            <button class="dropbtn" aria-label="Toggle Menu"><img src="/menu.svg"></button>
+            <button class="dropbtn" aria-label="Toggle Menu"><img src="/menu.svg" alt="menu icon"></button>
             <nav class="dropdown-menu ph4" id="drop-menu">
               <a v-scroll-to="'#about'" class="white link db ttu pv3">about</a>
              <!-- <a v-scroll-to="'/speakers'" class="white link db ttu pv3">speakers</a>
@@ -91,7 +91,7 @@ export default {
      &.w-icon {
        padding: 1rem 0;
        height: 5rem;
-       background: #051031;
+       background: #040b23;
         @media screen and (max-width: 60em) {
        padding: 0;
      }
@@ -123,7 +123,7 @@ export default {
          top: 100%;
          overflow: auto;
          z-index: 2;
-         background-color: #051031;
+         background-color: #040b23;
        }
 
        #drop-menu.show {
