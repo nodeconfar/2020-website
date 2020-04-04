@@ -1,7 +1,9 @@
-$primaryColor: #051031;
+
+$primaryColor: #040b23;
 $lightenPrimary: #020718;
 $secondaryColor: #ffffff;
-$accentColor: #bfd94d;
+$accentColor: #ace651;
+$tertiaryColor: #f3076c;
 
 
 /*Gral CSS*/
@@ -20,23 +22,32 @@ body {
 }
 
 a {
-  color: $accentColor;
+  color: $tertiaryColor;
+
   &:hover {
-    color: $primaryColor;
+    color: $secondaryColor;
   }
 }
 
 .container {
   max-width: 80rem;
 }
+
 .bg-blue-node,
 .hover-bg-blue-node:hover {
   background-color: $primaryColor
 }
+
 .bg-green-node,
 .hover-bg-green-node:hover {
   background-color: $accentColor;
 }
+
+.bg-pink-node,
+.hover-bg-pink-node:hover {
+  background-color: $tertiaryColor;
+}
+
 .bg-dark-node,
 .hover-bg-dark-node:hover {
   background-color: $lightenPrimary;
@@ -47,10 +58,16 @@ a {
   color: $accentColor;
 }
 
+.pink-node,
+.hover-pink-node:hover {
+  color: $tertiaryColor;
+}
+
 .blue-node,
 .hover-blue-node:hover {
   color: $primaryColor;
 }
+
 .dark-node,
 .hover-dark-node:hover {
   color: $lightenPrimary;
@@ -64,6 +81,7 @@ a {
 
 .go-map {
   color: $accentColor;
+
   .tooltip {
     @extend %absoluteBlock;
     text-transform: uppercase;
@@ -80,7 +98,7 @@ a {
 
     &:after {
       content: " ";
-      position: absolute; 
+      position: absolute;
       border-left: 7px solid transparent;
       border-right: 7px solid transparent;
       border-bottom: 7px solid $secondaryColor;
@@ -100,12 +118,13 @@ a {
 
   &:hover {
     color: $secondaryColor;
-    .tooltip {
-    opacity: 1;
-    transform: translateY(0)
-  }
 
-}
+    .tooltip {
+      opacity: 1;
+      transform: translateY(0)
+    }
+
+  }
 }
 
 .animated {
@@ -118,22 +137,31 @@ a {
   animation-iteration-count: infinite;
   -webkit-animation-iteration-count: infinite;
 }
+
 @-webkit-keyframes bounce {
-  0%, 100% {
+
+  0%,
+  100% {
     -webkit-transform: translateY(0);
   }
+
   50% {
     -webkit-transform: translateY(-5px);
   }
 }
+
 @keyframes bounce {
-  0%, 100% {
+
+  0%,
+  100% {
     transform: translateY(0);
   }
+
   50% {
     transform: translateY(-5px);
   }
 }
+
 .bounce {
   -webkit-animation-name: bounce;
   animation-name: bounce;

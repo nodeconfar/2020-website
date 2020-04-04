@@ -1,5 +1,5 @@
  <template>
- <div class="blue-node">
+ <div class="bg-blue-node white">
        <div class="container center pv5-l pv4 ph6-l ph4">
              <h1 class="f-subheadline-l f2 mv4-l mv3 fw6 tc">Code of Conduct</h1>
              <div class="columns">

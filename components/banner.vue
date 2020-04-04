@@ -17,7 +17,7 @@
             </p>
           </div>
         </div>
-       <p class="z-5 animated bounce arrow mb0 mt0-l mt5"> <a v-scroll-to="'#about'"><img src="arrow.svg"></a></p>
+       <p class="z-5 animated bounce arrow mb0 mt0-l mt5"> <a v-scroll-to="'#about'"><img src="arrow.svg" alt="go down"></a></p>
       </div>
       <span class="square bg-blue-node bottom-0 right-0"></span>
       <div class="bg-hero top-0 absolute z-2"></div>

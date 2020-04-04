@@ -16,6 +16,9 @@ module.exports = {
   ** Headers of the page
   */
   head: {
+    htmlAttrs: {
+      lang: 'en',
+    },
     title: 'Nodeconf Argentina 2020',
     meta: [
       { charset: 'utf-8' },
