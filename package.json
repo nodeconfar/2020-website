@@ -17,7 +17,7 @@
     "vuejs-paginate": "^2.1.0"
   },
   "devDependencies": {
-    "node-sass": "^4.13.1",
+    "node-sass": "^5.0.0",
     "nodemon": "^2.0.2",
     "sass-loader": "^8.0.2"
   }
